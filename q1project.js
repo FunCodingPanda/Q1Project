@@ -171,8 +171,8 @@ $(document).ready(function() {
     },
     {
       id: 17,
-      australian: 'Servo',
-      american: 'Service Station'
+      australian: 'Cougar',
+      american: 'Cradle Snatcher'
     }
   ];
 
