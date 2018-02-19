@@ -157,7 +157,7 @@ function draw(){
   
   for(var i=0;i<arcs.length;i++){
     var a = arcs[i];
-    var d = new Date();
+    var d = newDateWithTimezone(+11);
     if(a.class == "month"){
       var n = d.getMonth()+1;
       a.rot = (n/12)*(Math.PI*2) - (Math.PI/2);
