@@ -200,21 +200,21 @@ document.addEventListener('DOMContentLoaded', function () {
 }, false);
 
 
-function clock() {// We create a new Date object and assign it to a variable called "time".
-var time = new Date(),
-    
-    // Access the "getHours" method on the Date object with the dot accessor.
-    hours = time.getHours(),
-    
-    // Access the "getMinutes" method with the dot accessor.
-    minutes = time.getMinutes(),
-    
-    
-    seconds = time.getSeconds();
+function clock() {
 
-document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds) + " PST";
+var tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+var tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var time = new Date(),
+    hours = time.getHours(),
+    minutes = time.getMinutes(),
+    seconds = time.getSeconds(),
+    month = time.getMonth(),
+    date = time.getDate(),
+    day = time.getDay();
+
+document.querySelectorAll('.clock')[0].innerHTML =  pclock(tday[day]) + ", " + pclock(tmonth[month]) + " " + pclock(date) + " " + pclock(hours) + ":" + pclock(minutes) + ":" + pclock(seconds) + " PST";
   
-  function harold(standIn) {
+  function pclock(standIn) {
     if (standIn < 10) {
       standIn = '0' + standIn
     }
