@@ -57,7 +57,7 @@
         Kilometres: <span id="outputKilometres"></span>
       </p>
 
-      <p>3. Type a value in the Gallons field to convert the value to Litres:</p>
+      <p>3. Type a value in the US Gallons field to convert the value to Litres:</p>
       <label>Gallons</label>
       <input id="inputGallons" type="number" placeholder="Gallons" oninput="volumeConverter(this.value)" onchange="volumeConverter(this.value)">
       <p>
@@ -71,7 +71,14 @@
         Grams: <span id="outputGrams"></span>
       </p>
 
-      <p>5. Type a value in the Feet field to convert the value to Metres:</p>
+      <p>5. Type a value in the Fahrenheit field to convert the value to Celcius:</p>
+      <label>Fahrenheit</label>
+      <input id="inputF" type="number" placeholder="Fahrenheit" oninput="tempConverter(this.value)" onchange="tempConverter(this.value)">
+      <p>
+        Celcius: <span id="outputC"></span>
+      </p>
+
+      <p>6. Type a value in the Feet field to convert the value to Metres:</p>
       <label>Feet</label>
       <input id="inputFeet" type="number" placeholder="Feet" oninput="lengthConverter()" onchange="lengthConverter()">
       <label>Inches</label>

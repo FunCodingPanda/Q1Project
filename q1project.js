@@ -1,3 +1,4 @@
+//for converter.html
 function weightConverter(valNum) {
   document.getElementById("outputKilograms").innerHTML = valNum / 2.2046;
 }
@@ -14,12 +15,17 @@ function smallweightConverter(valNum) {
   document.getElementById("outputGrams").innerHTML = valNum / 0.03527399;
 }
 
+function tempConverter(valNum) {
+  document.getElementById("outputC").innerHTML = (valNum - 32) / (9/5);
+}
+
 function lengthConverter() {
   var feet = parseFloat(document.getElementById('inputFeet').value || "0");
   var inches = parseFloat(document.getElementById('inputInches').value || "0");
   document.getElementById("outputMetres").innerHTML = (feet + (inches/12.0)) / 3.28084;
 }
 
+//for forex.html
 var forexData;
 $.get("https://api.fixer.io/latest", function(data) {
   forexData = data;
@@ -36,6 +42,7 @@ function USDConverter(valNum) {
   document.getElementById("outputAUD").innerHTML = valNum / conversionFactor;
 }
 
+// for slang.html 
 $(document).ready(function() {
   let favorites = JSON.parse(localStorage.getItem("favorites"));
   if (!favorites) {
@@ -171,5 +178,3 @@ $(document).ready(function() {
 
   renderTable(slang);
 });
-
-
