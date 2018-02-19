@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #333;
+}
+
+canvas{
+  position: absolute;
+  top: -webkit-calc(50% - 250px);
+  top: calc(50% - 250px);
+  left: -webkit-calc(50% - 300px);
+  left: calc(50% - 300px);
+}
+
+div {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #fff;
+  font-size: 40px;
+  font-family: Arial;
+}
+
+span {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: #666;
+  font-size: 13px;
+  font-family: Arial;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
+span {
+  text-decoration: none;
+  color: #0579f5;
+}
+
+#header {
+  font-size: 16px;
+  left: 460px;
+  margin: 0 auto;
+  position: absolute;
+  top: 5px;
+}
+
+.clock {
+  bottom: 25px;
+  font-size: 30px;
+  position: absolute;
+  left: 85%;
+  color: white;
+}

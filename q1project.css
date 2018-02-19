@@ -1,0 +1,92 @@
+.title {
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.title:hover {
+  color: #FF1493;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#top {
+  text-align: center;
+}
+
+.about-title {
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 500%;
+  margin-top: 40px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.about {
+  background-image: url("bamboo2.jpg");
+  background-size: cover;
+}
+
+.about-content {
+  background-color: white;
+  max-width: 670px;
+  border: 1px solid black;
+  padding: 55px 35px;
+  margin: auto;
+  text-align: center;
+  font: bold 18px/30px Georgia, serif;
+}
+
+.convert-background {
+  background-image: url("giraffe2.jpg");
+  background-size: cover;
+}
+
+.forex {
+  background-image: url("forex.jpg");
+  background-size: cover;
+}
+
+.panda-navbar {
+  background-color: #000066;
+}
+
+.panda-navlink {
+  font-family: 'Varela Round', sans-serif;
+  margin-top: 6px;
+  font-size: 18px;
+}
+
+.panda-navlink:hover {
+  color: yellow;
+}
+
+.main-content {
+  background: white;
+  box-shadow: 4px 4px 24px 0px rgba(0,0,0,0.4);
+  margin: 55px auto;
+  min-width: 50rem;
+  max-width: 80%;
+  padding: 26px 35px;
+}
+
+@media(min-width: 600px) {
+  .main-content {
+    max-width: 50%;
+  }
+}
+
+.heart {
+  color: red;
+  font-size: 140%;
+}
+
+.slang-background {
+  background-image: url("kangaroo.jpg");
+  background-size: cover;
+}
+
+
