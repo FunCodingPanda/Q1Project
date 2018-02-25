@@ -16,9 +16,11 @@ It is really important that you are in the right folder in the terminal for the 
 
 
 ## 2) Download npm Packages
-This repository contains a test suite. You'll need to navigate to the cloned folder and type the following command:
+
+This repository contains a test suite. You'll need to navigate to that folder and type the following command:
 
 npm install
+
 You may see some warnings during this process, it's safe to ignore these particular warnings.
 
 
