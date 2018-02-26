@@ -9,10 +9,10 @@ function newDateWithTimezone(offset) {
     // convert to msec
     // add local time zone offset
     // get UTC time in msec
-    var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+    var utc = d.getTime() + (d.getTimezoneOffset() * 60000); 
+    //getTimezoneOffset get time zone difference in minutes
 
-    // create new Date object for different city
-    // using supplied offset
+   
     return new Date(utc + (3600000*offset));
 }
 
