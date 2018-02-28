@@ -174,8 +174,8 @@ if (typeof $ !== 'undefined') {
       },
       {
         id: 17,
-        australian: 'Cougar',
-        american: 'Cradle Snatcher'
+        australian: 'Cradle Snatcher',
+        american: 'Cougar'
       }
     ];
 
