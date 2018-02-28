@@ -149,13 +149,13 @@ if (typeof $ !== 'undefined') {
       },
       {
         id: 12,
-        australian: 'Thunder',
-        american: 'Fart'
+        australian: 'Footy',
+        american: 'Australian Football League'
       },
       {
         id: 13,
-        australian: 'Play the flute',
-        american: 'Masturbate'
+        australian: "Can't be arsed",
+        american: "Can't be bothered to do something"
       },
       {
         id: 14,
@@ -164,8 +164,8 @@ if (typeof $ !== 'undefined') {
       },
       {
         id: 15,
-        australian: 'Knackers',
-        american: 'Balls/Testicles'
+        australian: 'Devvo',
+        american: 'Devastated'
       },
       {
         id: 16,

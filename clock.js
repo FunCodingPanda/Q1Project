@@ -2,6 +2,8 @@
  * function to get a Date object given a specific
  * UTC offset
  */
+
+ //CODEPEN CODE 
 function newDateWithTimezone(offset) {
     // create Date object for current location
     var d = new Date();
@@ -199,6 +201,7 @@ document.addEventListener('DOMContentLoaded', function () {
   animloop();
 }, false);
 
+//CODEPEN CODE 
 
 function clock() {
 
