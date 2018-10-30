@@ -28,7 +28,7 @@ function lengthConverter() {
 //for forex.html
 var forexData;
 if (typeof $ !== 'undefined') {
-  $.get("https://api.fixer.io/latest", function(data) {
+  $.get("http://data.fixer.io/api/latest?access_key=c02d177d0ec8a2e196dfb4bad4d86d9a&symbols=USD,AUD", function(data) {
     forexData = data;
     console.log(forexData);
   });
