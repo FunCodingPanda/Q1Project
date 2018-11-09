@@ -4,12 +4,6 @@
 
 Basic Idea: Simply run `npm install`. Afterwards, tests can be run with `npm test`.
 
-## A screenshot of website page that I am testing!
-
-![Conversion Page](Q1screenshot.jpg)
-
-
-
 ## 1) Proper Folder
 
 It is really important that you are in the right folder in the terminal for the task below to work. For example, if the folder is called Q1 project, it should say Q1project in red writing following a bracket ([*****]). 
